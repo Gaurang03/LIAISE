@@ -26,7 +26,7 @@ function Homepage() {
     <Container maxW="xl" centerContent>
       <Box
         d="flex"
-        textAlign="center"
+        justifyContent="center"
         p={3}
         bg="white"
         w="100%"
@@ -39,7 +39,7 @@ function Homepage() {
         </Text>
       </Box>
       <Box bg="white" w="100%" p={4} borderRadius="lg" borderWidth="1px">
-        <Tabs isFitted variant="soft-rounded">
+        <Tabs isFitted variant="soft-rounded" colorScheme="green">
           <TabList mb="1em">
             <Tab>Login</Tab>
             <Tab>Sign Up</Tab>
